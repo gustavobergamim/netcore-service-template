@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ProjetoBase.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

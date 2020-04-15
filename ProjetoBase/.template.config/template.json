@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Gustavo S. Bergamim",
+  "classifications": [ "WebApi", "Class Library", "Console" ],
+  "name": "Projeto Base para APIs",
+  "identity": "GustavoBergamim.Templates.WebApi.CSharp",
+  "groupIdentity": "GustavoBergamim.Templates.WebApi",
+  "shortName": "dotnet-api",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjetoBase",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+	  "exclude": [ "**/.vs/**", "**/[Bb]in/**", "**/[Oo]bj/**", ".template.config/**/*", "**/*.filelist", "**/*.user", "**/*.lock.json" ]
+	}
+  ]
+}

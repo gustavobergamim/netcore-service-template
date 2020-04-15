@@ -1,0 +1,15 @@
+pool:
+  vmImage: 'Ubuntu 16.04'
+  
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- script: dotnet restore ProjetoBase
+- script: dotnet build ProjetoBase --configuration $(buildConfiguration)
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'

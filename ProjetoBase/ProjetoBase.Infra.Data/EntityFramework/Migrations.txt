@@ -1,0 +1,3 @@
+﻿dotnet ef migrations add CreateDatabase -s ProjetoBase.WebApi -p ProjetoBase.Infra.Data -o EntityFramework/Migrations -c ProjetoBaseDbContext
+
+dotnet ef database update -s ProjetoBase.WebApi -p ProjetoBase.Infra.Data -c ProjetoBaseDbContext
